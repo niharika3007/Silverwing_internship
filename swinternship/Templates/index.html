@@ -1,0 +1,331 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.2webros.com/myvitae/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Jun 2021 14:34:30 GMT -->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Vitae :: One Page Resume Template</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+</head>
+<body>
+<!--container -->
+<div class="container"> 
+  <!--splitlayout -->
+  <div id="splitlayout" class="splitlayout">
+    <div class="intro"> 
+      <!--slide left-->
+      <div class="side side-left">
+        <div class="leftblock">
+          <div class="aboutme">
+            <p>About me</p>
+            <div class="abouticon">
+              <div data-tags="chevron, navigation" data-pack="android" class="ion-android-arrow-back"></div>
+            </div>
+          </div>
+          <div class="intro-content">
+            <p>Hi, I am </p>
+            <h1><span>Niharika <br>
+              Patel</span><span>Learner and Hustler</span></h1>
+            <div class="botnav botnav-right">
+              <ul class="nav">
+                <li class="active" ><a href="#about" class="hvr-sweep-to-left">About me</a></li>
+                <li><a href="#skills" class="hvr-sweep-to-left">My skills</a></li>
+                <li><a href="#contact" class="hvr-sweep-to-left">contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <!--/slide left--> 
+      <!--slide right-->
+      <div class="side side-right">
+        <div class="rightblock">
+          <div class="portfolio">
+            <p>Portfolio</p>
+            <div class="portfolioicon">
+              <div data-tags="chevron, navigation" data-pack="android" class="ion-android-arrow-forward"></div>
+            </div>
+          </div>
+          <div class="intro-content">
+            <p>Hi, I am </p>
+            <h1><span>Niharika<br>
+              Patel </span><span>Learner and Hustler</span></h1>
+            <div class="botnav botnav-left">
+              <ul class="nav">
+                <li class="active"><a href="#portfolio" class="hvr-sweep-to-left">Portfolio</a></li>
+                <li><a href="#resume" class="hvr-sweep-to-left">My resume</a></li>
+                <li><a href="#awards" class="hvr-sweep-to-left">My Awards</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <!-- /slide right--> 
+      <!--clientsDashboard -->
+      <div id="clientsDropDown">
+        <div id="clientsDashboard">
+          <div class="first_box">
+            <div class="first_box_left"> <i class="fa fa-coffee"></i> </div>
+            <div class="counters">
+              <ul>
+                <li class="timer"><span class="count">3256</span> Cups of Coffee</li>
+              </ul>
+            </div>
+          </div>
+          <div class="first_box">
+            <div class="first_box_left"> <i class="fa fa-clock-o"></i> </div>
+            <div class="counters">
+              <ul>
+                <li class="timer"><span class="count">200</span>Read motivational blogs</li>
+              </ul>
+            </div>
+          </div>
+          <div class="first_box">
+            <div class="first_box_left"> <i class="fa fa-trophy"></i> </div>
+            <div class="counters">
+              <ul>
+                <li class="timer"><span class="count">2562</span> Projects Done</li>
+              </ul>
+            </div>
+          </div>
+          <div class="first_box">
+            <div class="first_box_left"> <i class="fa fa-smile-o"></i> </div>
+            <div class="counters">
+              <ul>
+                <li class="timer"><span class="count">261</span>Happy Clients</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /clientsDashboard -->
+        <div class="bot_bot" id="clientsOpen"><span data-tags="chevron, navigation" data-pack="android" class="ion-android-arrow-up"><a href="javascript: void(0);" id="up"></a></span></div>
+      </div>
+    </div>
+    <!-- page-right -->
+    <div class="page page-right"> 
+      <!-- page-inner -->
+      <div class="page-inner">
+        <section id="portfolio" class="pad200 padtop">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>My Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="portfoliosec">
+                <div class="gallery clearfix">
+                  <div class="grid">
+                    <div class="row">
+                      <div class="col-lg-4 col-xs-6">
+                        <figure class="effect-apollo"> <img src="{% static 'img/pic1.jpg' %}" alt="Project name"/>
+                          <h3>Project name</h3>
+                          <p> Little description..</p>
+                          <figcaption> <a class="fancybox" href="{% static 'img/full1.jpg' %}" data-fancybox-group="gallery" title="Project name"></a> </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-xs-6">
+                        <figure class="effect-apollo"> <img src="{% static 'img/pic2.jpg' %}" alt="Project name"/>
+                          <h3>Project name</h3>
+                          <p> Little description..</p>
+                          <figcaption><a class="fancybox" href="{% static 'img/full2.jpg' %}" data-fancybox-group="gallery" title="Project name"></a> </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-xs-6">
+                        <figure class="effect-apollo"> <img src="{% static 'img/pic3.jpg' %}" alt="Project name"/>
+                          <h3>Project name</h3>
+                          <p> Little description..</p>
+                          <figcaption> <a class="fancybox" href="{% static 'img/full3.jpg' %}" data-fancybox-group="gallery" title="Project name"></a> </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-xs-6">
+                        <figure class="effect-apollo"> <img src="{% static 'img/pic4.jpg' %}" alt="Project name"/>
+                          <h3>Project name</h3>
+                          <p> Little description..</p>
+                          <figcaption> <a class="fancybox" href="{% static 'img/full4.jpg' %}" data-fancybox-group="gallery" title="Project name"></a> </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-xs-6">
+                        <figure class="effect-apollo"> <img src="{% static 'img/pic5.jpg' %}" alt="Project name"/>
+                          <h3>Project name</h3>
+                          <p> Little description..</p>
+                          <figcaption> <a class="fancybox" href="{% static 'img/full5.jpg' %}" data-fancybox-group="gallery" title="Project name"></a> </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-xs-6">
+                        <figure class="effect-apollo"> <img src="{% static 'img/pic6.jpg' %}" alt="Project name"/>
+                          <h3>Project name</h3>
+                          <p> Little description..</p>
+                          <figcaption><a class="fancybox" href="{% static 'img/full6.jpg' %}" data-fancybox-group="gallery" title="Project name"></a> </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <section id="resume" >
+          <h2>My Resume</h2>
+          <div class="row">
+            <div class="col-lg-6 col-sm-6 pd">
+              <p class="font300-heading">My Education</p>
+              <div class="education_row">
+                <div class="dot"></div>
+                <h3>2018 to present</h3>
+                <p> Bachelor's  Degree in Computer engineering</p>
+                <span>Silver Oak College Of engineering and technology</span> </div>
+              <div class="education_row">
+                <div class="dot"></div>
+                <h3>2018</h3>
+                <p> H.S.C. Grade XII </p>
+                <span>M.B.Patel higher secondary school</span> </div>
+              <div class="education_row barnone">
+                <div class="dot"></div>
+                <h3>2016</h3>
+                <p> S.S.C. Grade X </p>
+                <span>M.B.Patel higher secondary school</span> </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <p class="font300-heading">My Work Experience</p>
+              <div class="education_row">
+                <div class="dot"></div>
+                <h3>May 2021 - present</h3>
+                <p> Python Django Intern </p>
+                <span>Silverwing Technologies Pvt. Ltd.</span> </div>
+              <div class="education_row">
+                <div class="dot"></div>
+                <h3>May 2021 - present</h3>
+                <p> Python data science Interen  </p>
+                <span>BrainyBeam Technologies Pvt. Ltd. </span> </div>
+              
+            </div>
+          </div>
+        </section>
+        <div class="clearfix"></div>
+        <section id="awards" >
+          <h2>My Awards</h2>
+          <div class="row dummy-pois">
+            <div class="col-lg-12">
+              <div class="dummy dummy-menu  ">
+                <ul>
+                  <li class="awradpic"><a class="tooltip" ><img src="{% static 'img/award1.png' %}"  alt="awrad1" class="img-responsive"><span class="tooltip-content">Awrad 1<br/>
+                    Some content goes here...</span></a></li>
+                  <li class="awradpic"><a class="tooltip" ><img src="{% static 'img/award2.png' %}"  alt="awrad2" class="img-responsive"><span class="tooltip-content">Awrad 2<br/>
+                    Some content goes here...</span></a></li>
+                  <li class="awradpic"><a class="tooltip" ><img src="{% static 'img/award3.png' %}"  alt="awrad3" class="img-responsive"><span class="tooltip-content">Awrad 3<br/>
+                    Some content goes here...</span></a></li>
+                  <li class="awradpic"><a class="tooltip"><img src="{% static 'img/award4.png' %}"  alt="awrad4" class="img-responsive"><span class="tooltip-content">Awrad 4<br/>
+                    Some content goes here...</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- /page-inner --> 
+    </div>
+    <!-- /page-right --> 
+    <!-- page-left -->
+    <div class="page page-left"> 
+      <!-- page-inner -->
+      <div class="page-inner">
+        <section id="about">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="about">
+                <h2>Hello, My Name is Niharika.</h2>
+                <div class="imgsec"><img src="{% static 'img/profilepic.jpg' %}" alt="Niharika"></div>
+                <div class="left_sec">
+                  <p class="font700">Niharika Patel, 20 years young, born and grew up in Ahmedabad, India . Currently pursuing B.E. in computer engineering at Silver Oak College Of Engineering and Technology </p>
+                  <p>I am a perpetual learner, who is inspired to grow and gather more experiences.</p>
+                  <p>Seeking an opportunity to work for an organization to have a platform to learn and explore new technologies
+                  and to improve my skills. Being a fresher, I will be more dedicated to my work being adaptable and hardworking.</p>
+                  <a href="#"  class="hvr-rectangle-in download_button">Download Resume</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </section>
+        <div class="clearfix"></div>
+        <div class="row">
+          <div class="col-lg-12">
+            <section id="skills" class="pad200">
+              <h2>My Skills</h2>
+              <ul class="bar">
+                <li>
+                  <p>HTML/CSS</p>
+                  <div class="bar-wrap"><span data-width="70"><strong class="value">70</strong><b>%</b></span></div>
+                </li>
+                <li>
+                  <p>Python</p>
+                  <div class="bar-wrap"><span data-width="60"><strong class="value">60</strong><b>%</b></span></div>
+                </li>
+                <li>
+                  <p>Data Structure</p>
+                  <div class="bar-wrap"><span data-width="80"><strong class="value">80</strong><b>%</b></span></div>
+                </li>
+                <li>
+                  <p>Photography</p>
+                  <div class="bar-wrap"><span data-width="90"><strong class="value">90</strong><b>%</b></span></div>
+                </li>
+                <li>
+                  <p>ADA</p>
+                  <div class="bar-wrap"><span data-width="75"><strong class="value">75</strong><b>%</b></span></div>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <section id="contact" >
+              <h2>Contact Me</h2>
+              <p><span class="font300">I am available for freelance jobs.</span> <br>
+                Please contact me and send me your questions and inquiries.</p>
+              <p class="font600"><a href="mailto:xyz@gmail.com">xyz@email.com</a> | +91 123456789 | Ahmedabad, India</p>
+              <div class="social_icon"> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-facebook"></i></a> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-twitter"></i></a> <a href="#"  class="hvr-shutter-in-vertical"><i class="fa fa-linkedin"></i></a> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-google-plus"></i></a> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-instagram"></i></a> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-youtube-play"></i></a> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-flickr"></i></a> <a href="#" class="hvr-shutter-in-vertical"><i class="fa fa-skype"></i></a> </div>
+              <p class="nomargin">or fill the form below for a quick callback</p>
+              <form name="contactform" action="http://demo.2webros.com/myvitae/form.php" method="post">
+            	<input type="hidden" name="myvitae" value="">
+				<input type="hidden" name="theSubject" value="My Vitae: Contact Request">
+                <input name="name" type="text" class="inputbg1" placeholder="Your name" required>
+                <input name="email" type="email" class="inputbg" placeholder="Your email" required>
+                <input name="phone" type="text" class="inputbg" placeholder="Your phone" required>
+                <textarea name="message"  class="textareabg" placeholder="Your message"></textarea>
+                <button type="submit" class="hvr-rectangle-in send_button">Send</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!-- /page-inner --> 
+    </div>
+    <!-- /page-left --> 
+    <a href="#" class="back back-right hvr-pulse" title=" ">&rarr;</a> <a href="#" class="back back-left hvr-pulse" title=" ">&larr;</a> </div>
+  <!-- /splitlayout --> 
+</div>
+<!-- /container --> 
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="{% static 'js/plugins/jquery-ui.min.js' %}"></script> 
+<script src="{% static 'js/plugins/jquery.appear.min.js' %}"></script> 
+<script src="{% static 'js/plugins/jquery.easing.1.3.min.js' %}"></script> 
+<script src="{% static 'js/plugins/modernizr.custom.min.js' %}"></script> 
+<script src="{% static 'js/plugins/jquery.countTo.min.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/plugins/jquery.fancybox.min.js' %}"></script> 
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script> 
+<script src="{% static 'js/plugins/classie.min.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/plugins/jquery.scrollTo.min.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/plugins/jquery.localScroll.min.js' %}"></script> 
+<script src="{% static 'js/plugins/cbpSplitLayout.min.js' %}"></script> 
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+
+<!-- Mirrored from demo.2webros.com/myvitae/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Jun 2021 14:36:16 GMT -->
+</html>

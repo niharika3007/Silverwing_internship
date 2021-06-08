@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 27 May 2021 11:39:03 at http://demo.2webros.com/myvitae/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://demo.2webros.com/myvitae/ -O1 "C:\Users\niharika\Desktop\swdjango\SWInternship_portfolio" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:41:45	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/img/leftarrow.png (from demo.2webros.com/myvitae/css/style.css)
+11:41:45	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/icons/fontawesome-webfont.woff2?v=4.5.0 (from demo.2webros.com/myvitae/css/font-awesome.css)
+11:41:50	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/bootstrap/fonts/glyphicons-halflings-regular.eot (from demo.2webros.com/myvitae/bootstrap/css/bootstrap.css)
+11:41:50	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/bootstrap/fonts/glyphicons-halflings-regular.eot? (from demo.2webros.com/myvitae/bootstrap/css/bootstrap.css)
+11:41:50	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/bootstrap/fonts/glyphicons-halflings-regular.woff2 (from demo.2webros.com/myvitae/bootstrap/css/bootstrap.css)
+11:41:50	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/bootstrap/fonts/glyphicons-halflings-regular.woff (from demo.2webros.com/myvitae/bootstrap/css/bootstrap.css)
+11:41:50	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/bootstrap/fonts/glyphicons-halflings-regular.ttf (from demo.2webros.com/myvitae/bootstrap/css/bootstrap.css)
+11:41:50	Error: 	"Not Found" (404) at link demo.2webros.com/myvitae/bootstrap/fonts/glyphicons-halflings-regular.svg (from demo.2webros.com/myvitae/bootstrap/css/bootstrap.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 47 seconds : 63 links scanned, 54 files written (4884362 bytes overall) [4891627 bytes received at 29291 bytes/sec], 16668 bytes transferred using HTTP compression in 1 files, ratio 18%, 2.2 requests per connection
+(8 errors, 0 warnings, 0 messages)
